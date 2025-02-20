@@ -187,6 +187,8 @@ This project is an e-commerce website developed through a series of milestones, 
 - ✅ Updated the *README.md* file with Milestone 11 details.  
 - ✅ Shared the repository link for submission.
 
+---
+
 ### Milestone 12: My Products Page - Filtering by User Email  
 
 ✅ Goals:  
@@ -205,6 +207,8 @@ This project is an e-commerce website developed through a series of milestones, 
 - Enables personalized product listings based on the logged-in user's email.  
 - Improves data filtering skills, ensuring only relevant data is sent to the client.  
 - Enhances user experience by displaying only their added products instead of all products.
+
+  ---
 
 ## ▶ How to Run the Project  
 1. Clone the repository:  
