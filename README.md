@@ -229,6 +229,34 @@ This project is an e-commerce website developed through a series of milestones, 
 
 ---
 
+### Milestone 14: Product Deletion Feature  
+
+✅ *Goals:*  
+
+#### 1️⃣ Backend - Delete Product by ID  
+- Created a *DELETE API endpoint* in Express.js to delete a product using its *unique ID*.  
+- Used *Mongoose* to find and remove the product from *MongoDB*.  
+- Ensured proper *error handling* if the product does not exist.  
+
+✅ *Code Snippet:*  
+```javascript
+app.delete("/api/products/:id", async (req, res) => {
+    try {
+        const { id } = req.params;
+        const deletedProduct = await Product.findByIdAndDelete(id);
+
+        if (!deletedProduct) {
+            return res.status(404).json({ message: "Product not found" });
+        }
+
+        res.json({ message: "Product deleted successfully" });
+    } catch (error) {
+        res.status(500).json({ message: "Error deleting product" });
+    }
+});
+
+
+
 ## ▶ How to Run the Project  
 1. Clone the repository:  
    ```bash  
