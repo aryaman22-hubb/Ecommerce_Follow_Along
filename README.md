@@ -385,7 +385,7 @@ This project is an e-commerce website developed through a series of milestones, 
 ## ▶ How to Run the Project  
 1. Clone the repository:  
    bash  
-   git clone https://github.com/your-username/E_Commerce_Follow_Along.git  
+   git clone https://github.com/aryamanhubb-22/E_Commerce_Follow_Along.git  
    cd E_Commerce_Follow_Along  
      
    
