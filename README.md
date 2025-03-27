@@ -31,6 +31,8 @@ This project is an e-commerce website developed through a series of milestones, 
   - [Milestone 22: Address Storage Endpoint](#milestone-22-Address-Storage-Endpoint)
   - [Milestone 23: Product Image Upload Feature](#milestone-23-Product-Image-Upload-Feature)
   - [Milestone 24: Order Confirmation Page](#milestone-24-Order-Confirmation-Page)
+  - [Milestone 25: Place Order Endpoint](#milestone-25-Place-Order-Endpoint)
+  - [Milestone 26: Get User Orders Endpoint](#milestone-26-Get-User-Orders-Endpoint)
 - [How to Run the Project](#-how-to-run-the-project) 
 ---
 
@@ -271,20 +273,20 @@ This project is an e-commerce website developed through a series of milestones, 
 ✅ Goals:
 
 #### 1️⃣ Creating the Navbar Component
-- Designed a responsive Navbar with navigation links for:
+- Designed a *responsive Navbar* with navigation links for:
   - Home
   - My Products
   - Add Product
   - Cart
-- Ensured consistency across all pages for a seamless experience.
+- Ensured *consistency across all pages* for a seamless experience.
 
 #### 2️⃣ Implementing Reusability
-- Used the Navbar across all screens to maintain a uniform layout.
-- Optimized component structure for easy scalability.
+- Used the Navbar *across all screens* to maintain a uniform layout.
+- Optimized *component structure* for easy scalability.
 
 #### 3️⃣ Enhancing Responsiveness
-- Used CSS Flexbox/Grid & Tailwind CSS to make the Navbar adaptable to different screen sizes.
-- Implemented hamburger menu for mobile users.
+- Used *CSS Flexbox/Grid* & *Tailwind CSS* to make the Navbar adaptable to different screen sizes.
+- Implemented *hamburger menu* for mobile users.
 
 #### 4️⃣ Submission Steps
 - ✅ Pushed the updated code to the GitHub repository.
@@ -298,23 +300,23 @@ This project is an e-commerce website developed through a series of milestones, 
 ✅ Goals:  
 
 #### 1️⃣ Creating the Product Info Page  
-- Designed a dedicated page to display detailed product information, including:  
+- Designed a *dedicated page* to display detailed product information, including:  
   - Product Name  
   - Description  
   - Price  
   - Image(s)  
 
 #### 2️⃣ Adding Quantity Selection & "Add to Cart" Button  
-- Implemented a quantity selector to allow users to choose the desired quantity.  
-- Added an "Add to Cart" button to store selected items in the cart.  
+- Implemented a *quantity selector* to allow users to choose the desired quantity.  
+- Added an *"Add to Cart"* button to store selected items in the cart.  
 
 #### 3️⃣ Dynamic Routing for Product Details  
-- Utilized React Router to create dynamic routes for each product.  
-- Fetched product details based on the product ID from the URL.  
+- Utilized *React Router* to create dynamic routes for each product.  
+- Fetched product details based on the *product ID* from the URL.  
 
 #### 4️⃣ Enhancing User Experience  
-- Ensured mobile responsiveness for smooth browsing on all devices.  
-- Implemented loading indicators for better user experience.  
+- Ensured *mobile responsiveness* for smooth browsing on all devices.  
+- Implemented *loading indicators* for better user experience.  
 
 #### 5️⃣ Submission Steps  
 - ✅ Pushed the updated code to the GitHub repository.  
@@ -328,7 +330,7 @@ This project is an e-commerce website developed through a series of milestones, 
 ✅ Goals:  
 
 #### 1️⃣ Update User Schema for Cart Functionality  
-- Modified the user schema to include a cart field.  
+- Modified the *user schema* to include a cart field.  
 - Structured the cart field to store an array of product objects containing:  
   - Product ID  
   - Name  
@@ -336,16 +338,16 @@ This project is an e-commerce website developed through a series of milestones, 
   - Quantity  
 
 #### 2️⃣ Backend - Add to Cart Endpoint  
-- Created an endpoint to receive product details and store them in the user's cart.  
-- Ensured secure handling of requests and efficient database updates using MongoDB & Mongoose.  
+- Created an endpoint to *receive product details* and store them in the user's cart.  
+- Ensured secure handling of requests and efficient database updates using *MongoDB & Mongoose*.  
 
 #### 3️⃣ Frontend - Add to Cart Integration  
-- Connected the "Add to Cart" button from the Product Info Page to the backend API.  
-- Stored cart data in the database and updated the UI dynamically.  
+- Connected the *"Add to Cart"* button from the Product Info Page to the backend API.  
+- Stored *cart data in the database* and updated the UI dynamically.  
 
 #### 4️⃣ User Experience Enhancements  
-- Implemented a notification system to confirm when a product is added to the cart.  
-- Ensured real-time cart updates without needing to refresh the page.  
+- Implemented a *notification system* to confirm when a product is added to the cart.  
+- Ensured *real-time cart updates* without needing to refresh the page.  
 
 #### 5️⃣ Submission Steps  
 - ✅ Pushed the updated code to the GitHub repository.  
@@ -358,28 +360,28 @@ This project is an e-commerce website developed through a series of milestones, 
 ✅ Goals:  
 
 #### 1️⃣ Creating the Cart Page  
-- Designed a Cart Page to display:  
+- Designed a *Cart Page* to display:  
   - List of added products  
   - Product images, names, prices, and quantities  
   - Total cart value  
-- Implemented a Remove from Cart button for each item.  
+- Implemented a *Remove from Cart* button for each item.  
 
 #### 2️⃣ Backend - Fetch & Update Cart  
-- Created an endpoint to retrieve cart items from the database.  
-- Implemented an API to update product quantities in the cart.  
-- Ensured secure cart data management for logged-in users.  
+- Created an endpoint to *retrieve cart items* from the database.  
+- Implemented an API to *update product quantities* in the cart.  
+- Ensured secure *cart data management* for logged-in users.  
 
 #### 3️⃣ Checkout Functionality  
-- Added a Checkout button that:  
+- Added a *Checkout button* that:  
   - Confirms the order  
   - Clears the cart after a successful purchase  
   - Redirects users to an order confirmation page  
-- Integrated a payment gateway placeholder for future improvements.  
+- Integrated a *payment gateway placeholder* for future improvements.  
 
 #### 4️⃣ User Experience Enhancements  
-- Provided real-time cart updates when quantities change.  
-- Displayed subtotal and total price dynamically.  
-- Ensured a mobile-friendly UI for a seamless experience.  
+- Provided *real-time cart updates* when quantities change.  
+- Displayed *subtotal and total price* dynamically.  
+- Ensured a *mobile-friendly UI* for a seamless experience.  
 
 #### 5️⃣ Submission Steps  
 - ✅ Pushed the updated code to the GitHub repository.  
@@ -461,17 +463,17 @@ This project is an e-commerce website developed through a series of milestones, 
 
 # Milestone 21: Address Form Page
 
-✅ Goals:
+✅ *Goals:*
 
 ### 1️⃣ Frontend - Address Form Page
 
 - Created an address form page that collects the following details:
-  - Country
-  - City
-  - Address Line 1
-  - Address Line 2
-  - ZIP Code
-  - Address Type (e.g., Home, Office, etc.)
+  - *Country*
+  - *City*
+  - *Address Line 1*
+  - *Address Line 2*
+  - *ZIP Code*
+  - *Address Type* (e.g., Home, Office, etc.)
 
 - Implemented a state that stores the address input data for better management.
 
@@ -491,7 +493,7 @@ This project is an e-commerce website developed through a series of milestones, 
 ---
 # Milestone 22: Address Storage Endpoint
 
-✅ Goals:
+✅ *Goals:*
 
 ### 1️⃣ Backend - Address Storage Endpoint
 
@@ -513,11 +515,11 @@ This project is an e-commerce website developed through a series of milestones, 
 ---
 # Milestone 23: Product Image Upload Feature
 
-✅ Goals:
+✅ *Goals:*
 
 ### 1️⃣ Backend - Product Image Upload Endpoint
 
-- Created an API endpoint for uploading product images using Multer.
+- Created an API endpoint for uploading product images using *Multer*.
 - Integrated image storage logic to save uploaded images in a designated folder and store their paths in the database.
 - Ensured endpoint security by restricting access to admin users only.
 
@@ -536,15 +538,15 @@ This project is an e-commerce website developed through a series of milestones, 
 ---
 # Milestone 24: Order Confirmation Page
 
-✅ Goals:
+✅ *Goals:*
 
 ### 1️⃣ Frontend - Order Confirmation Page
 
-- Developed an Order Confirmation Page that displays the following details:
+- Developed an *Order Confirmation Page* that displays the following details:
   - ✅ List of all products in the order with relevant details.
-  - ✅ The selected delivery address for clear reference.
-  - ✅ The total cart value calculated dynamically.
-  - ✅ A prominent "Place Order" button for finalizing the purchase.
+  - ✅ The selected *delivery address* for clear reference.
+  - ✅ The *total cart value* calculated dynamically.
+  - ✅ A prominent *"Place Order"* button for finalizing the purchase.
 
 ### 2️⃣ Enhancing User Experience
 
@@ -564,6 +566,59 @@ This project is an e-commerce website developed through a series of milestones, 
 
 ---
 
+# Milestone 25: Place Order Endpoint
+
+✅ *Goals:*
+
+### 1️⃣ Backend - Place Order Endpoint
+
+- Created a secure *Place Order* endpoint that:
+  - ✅ Receives product details, user information, and selected address from the frontend.
+  - ✅ Extracts the user's email to retrieve their _id from the database.
+  - ✅ Creates a *separate order* entry for each product while maintaining the same delivery address.
+  - ✅ Stores the order details in the *MongoDB orders collection* using the previously created order schema.
+
+### 2️⃣ Enhancing Functionality
+
+- Implemented proper error handling to manage invalid data or failed order creation.
+- Ensured only authenticated users can access the endpoint for added security.
+- Included clear success and error response messages for better frontend integration.
+
+### 3️⃣ Learning Outcome
+
+- Learned how to:
+  - Structure an effective *Place Order* endpoint.
+  - Manage and store order data efficiently in MongoDB.
+
+### 4️⃣ Submission Steps
+
+- ✅ Pushed the updated code to the GitHub repository.
+- ✅ Updated the README.md file with Milestone 25 details.
+- ✅ Shared the repository link for submission.
+
+---
+
+### Milestone 26: Get User Orders Endpoint 
+
+✅ *Goals:*  
+
+### 1️⃣ Backend - User Orders Endpoint  
+
+- Created an API endpoint that retrieves all orders for a specific user.  
+- Implemented logic to receive the user's email and retrieve the corresponding _id.  
+- Used the retrieved _id to query and fetch all orders associated with that user from the database.  
+
+### 2️⃣ Enhancing User Experience  
+
+- Ensured proper error handling for cases such as invalid email, missing orders, or database issues.  
+- Implemented clear success and error response messages for better user feedback.  
+
+### 3️⃣ Submission Steps  
+
+- ✅ Pushed the updated code to the GitHub repository.  
+- ✅ Updated the README.md file with Milestone 26 details.  
+- ✅ Shared the repository link for submission.  
+---
 ## ▶ How to Run the Project  
 1. Clone the repository:  
    bash  
