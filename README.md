@@ -37,6 +37,11 @@ This project is an e-commerce website developed through a series of milestones, 
   - [Milestone 28: Cancel Order Functionality ](#milestone-28-Cancel-Order-Functionality)
   - [Milestone 29: PayPal Payment Integration](#milestone-29-PayPal-Payment-Integration)
   - [Milestone 30: Integrating Online Payments with PayPal](#milestone-30-Integrating-Online-Payments-with-PayPal)
+   - [Milestone 31: Global State Management with Redux](#milestone-31-Global-State-Management-with-Redux)
+  - [Milestone 32: Storing and Accessing Mail in Global State with Redux](#milestone-32-Storing-and-Accessing-Mail-in-Global-State-with-Redux)
+  - [Milestone 33: Creating and Storing JWT Token in Cookies](#milestone-33-Creating-and-Storing-JWT-Token-in-Cookies)
+  - [Milestone 34: Validating JWT Token Stored in Cookies](#milestone-34-Validating-JWT-Token-Stored-in-Cookies)
+  - [Milestone 35: Deploying Your Project](#milestone-35-Deploying-Your-Project)
 - [How to Run the Project](#-how-to-run-the-project) 
 ---
 
